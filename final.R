@@ -78,7 +78,7 @@ maze=function(size,cex_set=2.5){
   
   #生成地圖
   windows()
-  plot(0,0,xlim=c(0,size2),ylim=c(0,size2),type="n",xaxs="i",yaxs="i")
+  plot(0,0,xlim=c(0,size2),ylim=c(0,size2),type="n",xaxs="i",yaxs="i",xlab="",ylab="",axes=0)
   for(i in 1:(size2-1)){
     abline(h=i,col="gray60") #水平線
     abline(v=i,col="gray60")
