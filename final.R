@@ -1,3 +1,5 @@
+
+
 maze=function(size,cex_set=2.5){
   #initiate
   size2=2*size-3
@@ -75,7 +77,7 @@ maze=function(size,cex_set=2.5){
   dfs(2,2)
   
   #生成地圖
-  
+  windows()
   plot(0,0,xlim=c(0,size2),ylim=c(0,size2),type="n",xaxs="i",yaxs="i")
   for(i in 1:(size2-1)){
     abline(h=i,col="gray60") #水平線
@@ -102,7 +104,7 @@ maze=function(size,cex_set=2.5){
   
   keydown=function(K){
     K=tolower(K)
-    point(K)
+    points(K)
     
     if(K=="down"){
       if(now.y>2&&maze_map[now.x,now.y-1]==0){
@@ -147,5 +149,6 @@ maze=function(size,cex_set=2.5){
   
 }
 
+maze(16)
 
 

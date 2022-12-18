@@ -1,3 +1,10 @@
+#setGraphicsEvent("buttonPress")
+#while(TRUE){
+#  event=getGraphicsEvent()
+  
+#}
+
+
 #install.packages("installr")
 #library(installr)
 #create_windows_desktop_shortcut(run_as_admin=TRUE)
