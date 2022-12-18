@@ -106,7 +106,8 @@ maze=function(size,cex_set=2.5){
     
     if(K=="down"){
       if(now.y>2&&maze_map[now.x,now.y-1]==0){
-        points(now.x-0.5,now.y-0.5,col=7,pch=15,cex=cex_set)        now.y<<-now.y-1
+        points(now.x-0.5,now.y-0.5,col=7,pch=15,cex=cex_set)        
+        now.y<<-now.y-1
         points(now.x-0.5,now.y-0.5,col=2,pch=15,cex=cex_set)
       }
     }
