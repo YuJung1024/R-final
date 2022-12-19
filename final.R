@@ -139,7 +139,7 @@ maze=function(size,cex_set=2.5){
     }
     
     if(now.x==dest.x && now.y==dest.y){
-      text(2,2,label="You Win",cex=3)
+      legend("center","YOU WIN~",cex=3)
       getGraphicsEvent(onKeybd =NULL)
     }
   }
