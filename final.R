@@ -139,7 +139,7 @@ maze=function(size,cex_set=2.5){
     }
     
     if(now.x==dest.x && now.y==dest.y){
-      legend("center","YOU WIN~",cex=3)
+      legend("center","YOU WIN~",cex=3,bg="white")
       getGraphicsEvent(onKeybd =NULL)
     }
   }
