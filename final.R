@@ -149,6 +149,6 @@ maze=function(size,cex_set=2.5){
   
 }
 
-maze(16)
+maze(17)
 
 
