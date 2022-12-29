@@ -43,7 +43,7 @@ maze=function(size,cex_set=2.5){
   }
   
   
-  #前準備(?)
+  #前準備
   dfs=function(x,y){
     print(c(x,y,neighbor_count(x,y)))
     if(neighbor_count(x,y)==4){return}
@@ -149,6 +149,6 @@ maze=function(size,cex_set=2.5){
   
 }
 
-maze(17)
+maze(17) #開始遊戲
 
 
